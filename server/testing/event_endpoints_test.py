@@ -1,5 +1,5 @@
-from app import app
-from models import *
+from server.app import app
+from server.models import *
 
 def test_get_events(test_client):
     response = test_client.get("/events")

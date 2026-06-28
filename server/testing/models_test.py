@@ -1,5 +1,5 @@
 import datetime
-from server.models import *
+from models import *
 
 def test_create_event(test_client):
     event = Event(name="Tech Conference", location="New York")

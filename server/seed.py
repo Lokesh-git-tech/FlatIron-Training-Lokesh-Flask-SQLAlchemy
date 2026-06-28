@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 
-from app import app
-from models import db, Event, Session, Speaker, Bio
+from server.app import app
+from server.models import db, Event, Session, Speaker, Bio
+
 import datetime
 
 with app.app_context():

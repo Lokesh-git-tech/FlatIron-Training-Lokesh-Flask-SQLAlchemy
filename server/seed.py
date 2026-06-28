@@ -1,11 +1,7 @@
 #!/usr/bin/env python3
 
-try:
-    from server.app import app
-    from server.models import db, Event, Session, Speaker, Bio
-except ImportError:
-    from app import app
-    from models import db, Event, Session, Speaker, Bio
+from app import app
+from models import db, Event, Session, Speaker, Bio
 
 import datetime
 
